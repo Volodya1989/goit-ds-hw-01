@@ -1,5 +1,5 @@
 
-# Assistant Bot | HW-07
+# Assistant Bot | HW-01
 
 This repository contains the solution for Assistant Bot assignment #07. It involves the creation of an assistant bot with functionalities such as adding and editing contacts, displaying birthdays, and managing a contact book.
 
