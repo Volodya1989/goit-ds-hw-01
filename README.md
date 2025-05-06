@@ -1,45 +1,34 @@
+# Personal Assistant CLI – Dockerized
 
-# Assistant Bot | HW-01
+This is a command-line personal assistant application built in Python, designed as part of the GoIT Data Science homework assignment.
 
-This repository contains the solution for Assistant Bot assignment #07. It involves the creation of an assistant bot with functionalities such as adding and editing contacts, displaying birthdays, and managing a contact book.
+## 📦 Features
 
-## Features
-- **Add Contact**: Add new contacts to the address book.
-- **Change Contact**: Modify existing contact details.
-- **Show Phone**: Display the phone number of a specific contact.
-- **Show All Contacts**: List all contacts in the address book.
-- **Manage Birthdays**: Add and show birthdays associated with contacts.
+- Manage contacts with names and phone numbers
+- Store and retrieve data using object-oriented structures
+- Dockerized for easy deployment and environment consistency
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Volodya1989/goit-core-hw-07.git
-   ```
+## 🐳 Docker Support
 
-2. Navigate to the project folder:
-   ```bash
-   cd goit-core-hw-07
-   ```
+You can build and run the assistant inside a Docker container to avoid managing Python environments manually.
 
-3. Install the required dependencies (if any):
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-4. Run the `main.py` file:
-   ```bash
-   python main.py
-   ```
+## 🚀 Getting Started
 
-## Usage
-Run the assistant bot and enter commands to interact with it. You can:
-- Add contacts
-- Change contact information
-- View all contacts
-- Manage birthdays
+### 🔧 Prerequisites
 
-## Contributing
-Feel free to fork the repository, make changes, and submit pull requests.
+Make sure you have Docker installed:
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) (Windows/Mac)
+- `docker` CLI (Linux)
+
+---
+
+### 🛠 Build the Docker Image
+
+Clone the repository and navigate into it:
+
+```bash
+git clone https://github.com/Volodya1989/goit-ds-hw-01.git
+cd goit-ds-hw-01
